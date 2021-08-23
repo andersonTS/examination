@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +10,22 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="d-flex flex-wrap justify-content-between px-4 border-bottom align-items-center">
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4"><b>TOUR-GUIDE</b></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4"><b>TOUR-GUIDE</b></a>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4">Stories</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4">Gallery</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4">Features</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-4">Write to us</a></li>
         </ul>
-  
-        <ul class="nav nav-pills">
+
+        <ul class="nav nav-pills navs-icons">
             <li class="nav-item"><a href="#" class="nav-link px-3"><img src="./img/twitter-128.png" alt="" width="32" height="32"></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-3"><img src="./img/facebook-128.png" alt="" width="32" height="32"></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-3"><img src="./img/instagram-2-128.png" alt="" width="32" height="32"></a></li>
@@ -32,69 +35,267 @@
     </header>
     <div class="container-fluid">
         <div class="row ">
-            <div class="card p-0  border-0 border-bottom rounded-0">
-                <div class="row ">
-                    <div class="col-md-6 d-flex align-items-center">
+            <div class="card border-0 border-bottom rounded-0">
+                <div class="row" id="cards-items">
+                    <div class="col-6 d-flex align-items-center">
                         <div class="card-body d-flex flex-column  justify-content-center px-5">
-                            <h5 class="card-text fs-1 ">Let's hit the road</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <b class="card-text fs-1">Let's hit the road</b>
+                            <p class="card-text fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Possimus, at harum rem aut adipisci, suscipit qui blanditiis.
                                 Dolor provident incidunt quaerat eum quibusdam odit molestiae.
                                 Quod nostrum a ullam. Omnis.
                             </p>
-                            <p class="card-text">
-                                Dolor provident incidunt quaerat eum quibusdam odit molestiae. Quod nostrum a ullam. Omnis.
+                            <p class="card-text fs-5">
+                                Dolor provident incidunt quaerat eum quibusdam odit molestiae. Quod nostrum a ullam.
+                                Omnis.
                             </p>
-                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1">Start</button></div>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">Start</button>
+                            </div>
                         </div>
-                      </div>
-                    <div class="col-md-6">
-                        <img src="./img/fire-2560427_640.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-6 p-0">
+                        <img src="./img/campfire-896196_1920.jpg" class="img-fluid"  alt="...">
                     </div>
                 </div>
-              </div>
+            </div>
         </div>
         <div class="row">
-            <div class="card p-0 border-0 border-bottom">
-                <div class="row ">
-                  <div class="col-md-4">
-                    <img src="./img/flames-711279_640.jpg" class="img-fluid" alt="...">
-                  </div>
-                  <div class="col-md-8 d-flex align-items-center ">
-                    <div class="card-body d-flex flex-column  justify-content-center px-5">
-                        <h5 class="card-text fw-bold">Story</h5>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to additional content. 
-                        This content is a little bit longer.
-                        This is a wider card with supporting text below as a natural lead-in to additional content.
-                      </p>
-                      <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1">More</button></div>
+            <div class="card  border-0 border-bottom">
+                <div class="row cards-items">
+                    <div class="col-md-4 p-0">
+                        <img src="./img/flames-711279_640.jpg" class="img-fluid" alt="...">
                     </div>
-                  </div>
+                    <div class="col-md-8 d-flex align-items-center ">
+                        <div class="card-body d-flex flex-column  justify-content-center px-5">
+                            <b class="card-text fw-bold fs-1">Story</b>
+                            <p class="card-text fs-5">
+                                This is a wider card with supporting text below as a natural lead-in to additional
+                                content.
+                                This content is a little bit longer.
+                                This is a wider card with supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">More</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
-        <div class="row ">
-            <div class="card p-0  border-0 border-bottom rounded-0">
-                <div class="row ">
+        <div class="row p-0">
+            <div class="card border-0 border-bottom rounded-0">
+                <div class="row">
                     <div class="col-md-9 d-flex align-items-center">
                         <div class="card-body d-flex flex-column  justify-content-center px-5">
-                            <h5 class="card-text fw-bold">Story</h5>
-                          <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to additional content. 
-                            This content is a little bit longer.
-                            This is a wider card with supporting text below as a natural lead-in to additional content.
-                          </p>
-                          <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1">More</button></div>
+                            <b class="card-text fw-bold fs-1">Story</b>
+                            <p class="card-tex fs-5">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.
+                                This content is a little bit longer.
+                                This is a wider card with supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">More</button>
+                            </div>
                         </div>
-                      </div>
-                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-3 p-0">
                         <img src="./img/fire-2560427_640.jpg" class="img-fluid" alt="...">
                     </div>
                 </div>
-              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center py-5">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                        <img class="img-fluid" src="./img/work-1.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Title</div>
+                            <div class="project-name">This is a wider card with supporting text below as a natural lead-in to additional content.</div>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 text-light">More</button></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                        <img class="img-fluid" src="./img/work-2.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Title</div>
+                            <div class="project-name">This is a wider card with supporting text below as a natural lead-in to additional content.</div>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 text-light">More</button></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                        <img class="img-fluid" src="./img/work-3.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Title</div>
+                            <div class="project-name">This is a wider card with supporting text below as a natural lead-in to additional content.</div>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 text-light">More</button></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 ">
+                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
+                        <img class="img-fluid" src="./img/work-4.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Title</div>
+                            <div class="project-name">This is a wider card with supporting text below as a natural lead-in to additional content.</div>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 text-light">More</button></div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center py-5">
+                <h1>Features</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 text-center p-5 fs-6  border-end border-bottom border-2">
+                <img src="./img/airplane-48.png" alt=""><br>
+                <p class="fw-bold py-2">One</p>
+                <p>Porro pariatur sit libero deleniti unde blanditiis eum doloremque. 
+                    Illo non rerum, assumenda est quia, ad cum velit eligendi! 
+                    </p>
+            </div>
+            <div class="col-4 text-center p-5 fs-6 border-end border-bottom border-2">
+                <img src="./img/map_marker-48.png" alt=""><br>
+                <p class="fw-bold py-2">Two</p>
+                <p>Porro pariatur sit libero deleniti unde blanditiis eum doloremque.</p>
+            </div>
+            <div class="col-4 text-center p-5 fs-6 border-bottom border-2">
+                <img src="./img/movie-48.png" alt=""><br>
+                <p class="fw-bold py-2">Three</p>
+                <p>Illo non rerum, assumenda est quia, ad cum velit eligendi! 
+                    Veritatis, inventore quas!</p>
+            </div>
+            <div class="col-4 text-center p-5 fs-6 border-end border-2">
+                <img src="./img/alarm_clock-48.png" alt=""><br>
+                <p class="fw-bold py-2">Four</p>
+                <p>Porro pariatur sit libero deleniti unde blanditiis eum doloremque. 
+                    Illo non rerum, assumenda est quia, ad cum velit eligendi!</p>
+            </div>
+            <div class="col-4 text-center p-5 fs-6 border-end  border-2">
+                <img src="./img/face-48.png" alt=""><br>
+                <p class="fw-bold py-2">Five</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Veritatis, inventore quas!</p>
+            </div>
+            <div class="col-4 text-center p-5 fs-6 border-2">
+                <img src="./img/genius-48.png" alt=""><br>
+                <p class="fw-bold py-2">Six</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center py-5">
+                <h1>Write to us</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <label for="name" class="form-label"><b>Name:</b></label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><b>Email:</b></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label for="phone" class="form-label"><b>Phone:</b></label>
+                    <input type="text" class="form-control" id="phone">
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex py-3">
+                <div><b>Contact me with:</b></div>
+                <div class="form-check px-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Email
+                    </label>
+                  </div>
+                  <div class="form-check px-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Phone
+                    </label>
+                  </div>
+                  <div class="form-check px-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Telegram
+                    </label>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 py-3">
+                <b>Topic:</b>
+                <select class="form-select w-100" aria-label="Default select example">
+                    <option selected>Post my story</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-12 py-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Message:</b></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+        </div> 
+        <div class="row pb-2">
+            <div class="col-6">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I am a human
+                    </label>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <div class="w-25 d-flex justify-content-end"><button type="button" class="btn border border-2 fs-4 py-1">Start</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row border-top border-2">
+            <div class="col-12 d-flex justify-content-center py-4">
+                <img src="./img/twitter-128.png" alt="" width="35" height="35" class="border rounded-circle border-2 m-1 secondary">
+                <img src="./img/facebook-128.png" alt="" width="35" height="35" class="border rounded-circle border-2 m-1 secondary">
+                <img src="./img/instagram-2-128.png" alt="" width="35" height="35" class="border rounded-circle border-2 m-1 secondary">
+                <img src="./img/youtube-128.png" alt="" width="35" height="35" class="border rounded-circle border-2 m-1 secondary">
+                <img src="./img/gmail-128.png" alt="" width="35" height="35" class="border rounded-circle border-2 m-1 secondary">
+            </div>
+            <div class="col-12 text-center text-muted">
+                <h5>UNTITLED 2019</h5>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
