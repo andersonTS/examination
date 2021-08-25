@@ -133,6 +133,15 @@ a:not([href]):not([class]):hover {
   min-height: 30rem;
   background-size: cover;
 }
+.subscribe{
+  opacity: 0.5;
+}
+.subscribe:hover{
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
 
 @media (max-width: 992px) {
   .navs-icons {
