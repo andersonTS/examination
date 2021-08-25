@@ -169,5 +169,8 @@ a:not([href]):not([class]):hover {
   #four, #five, #six{
     border-bottom: 2px solid #dee2e6 !important;
   }
+  #one, #two, #three, #four, #five, #six{
+    border-right: 2px solid #ffffff !important;
+  }
   
 }
