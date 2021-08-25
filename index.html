@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="d-flex flex-wrap justify-content-between align-items-center px-5 py-0 border-bottom align-items-center navbar navbar-expand-sm bg-light  navbar-shrink" id="mainNav">
+    <header class="d-flex flex-wrap justify-content-between align-items-center px-5 py-0 border-bottom align-items-center navbar navbar-expand-sm bg-light  navbar-shrink fixed-top" id="mainNav page-top">
         <a class="navbar-brand text-dark fw-bold" href="#page-top">TOUR-GUIDE</a>
         <button class="navbar-toggler  bg-light text-dark rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -24,9 +24,9 @@
         </button>
         <ul class="navbar-collapse collapse pt-3" id="navbarResponsive">
             <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Stories</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Gallery</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Write to us</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Gallery</a></li>
+            <li class="nav-item"><a href="#features" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Features</a></li>
+            <li class="nav-item"><a href="#write-to-us" class="nav-link text-decoration-none text-dark fs-6" id="top-text">Write to us</a></li>
         </ul>
 
         <ul class="nav nav-pills navs-icons">
@@ -37,24 +37,24 @@
             <li class="nav-item"><a href="#" class="nav-link px-3"><img src="./img/gmail-128.png" alt="" width="20" height="20"></a></li>
         </ul>
     </header>
-    <div class="container-fluid">
+    <div class="container-fluid mt-4" id="page-top">
         <div class="row ">
             <div class="card border-0 border-bottom rounded-0">
                 <div class="row d-flex flex-column-reverse  flex-md-row" id="cards-items">
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="card-body d-flex flex-column  justify-content-center px-5">
                             <b class="card-text fs-1">Let's hit the road</b>
-                            <p class="card-text fs-5">
+                            <p class="card-text fs-6">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Possimus, at harum rem aut adipisci, suscipit qui blanditiis.
                                 Dolor provident incidunt quaerat eum quibusdam odit molestiae.
                                 Quod nostrum a ullam. Omnis.
                             </p>
-                            <p class="card-text fs-5">
+                            <p class="card-text fs-6">
                                 Dolor provident incidunt quaerat eum quibusdam odit molestiae. Quod nostrum a ullam.
                                 Omnis.
                             </p>
-                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">Start</button>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4 text-secondary">Start</button>
                             </div>
                         </div>
                     </div>
@@ -73,14 +73,14 @@
                     <div class="col-md-8 d-flex align-items-center ">
                         <div class="card-body d-flex flex-column  justify-content-center px-5">
                             <b class="card-text fw-bold fs-1">Story</b>
-                            <p class="card-text fs-5">
+                            <p class="card-text fs-6">
                                 This is a wider card with supporting text below as a natural lead-in to additional
                                 content.
                                 This content is a little bit longer.
                                 This is a wider card with supporting text below as a natural lead-in to additional
                                 content.
                             </p>
-                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">More</button>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4 text-secondary">More</button>
                             </div>
                         </div>
                     </div>
@@ -93,13 +93,13 @@
                     <div class="col-md-9 d-flex align-items-center">
                         <div class="card-body d-flex flex-column  justify-content-center px-5">
                             <b class="card-text fw-bold fs-1">Story</b>
-                            <p class="card-tex fs-5">This is a wider card with supporting text below as a natural lead-in to
+                            <p class="card-tex fs-6">This is a wider card with supporting text below as a natural lead-in to
                                 additional content.
                                 This content is a little bit longer.
                                 This is a wider card with supporting text below as a natural lead-in to additional
                                 content.
                             </p>
-                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4">More</button>
+                            <div class="w-25"><button type="button" class="btn border border-2 px-3 py-1 fs-4 text-secondary">More</button>
                             </div>
                         </div>
                     </div>
@@ -109,8 +109,8 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center py-5">
+        <div class="row" id="gallery">
+            <div class="col-12 text-center py-5 mt-4">
                 <h1>Gallery</h1>
             </div>
         </div>
@@ -164,8 +164,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-12 text-center py-5">
+        <div class="row" id="features">
+            <div class="col-12 text-center py-5 mt-4">
                 <h1>Features</h1>
             </div>
         </div>
@@ -206,47 +206,47 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center py-5">
+        <div class="row" id="write-to-us">
+            <div class="col-12 text-center py-5 mt-4">
                 <h1>Write to us</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-4">
-                <div class="mb-3">
-                    <label for="name" class="form-label"><b>Name:</b></label>
+                <div>
+                    <label for="name" class="form-label"><h5>Name:</h5></label>
                     <input type="text" class="form-control" id="name">
                   </div>
             </div>
             <div class="col-4">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"><b>Email:</b></label>
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label"><h5>Email:</h5></label>
                     <input type="email" class="form-control" id="exampleFormControlInput1">
                   </div>
             </div>
             <div class="col-4">
-                <div class="mb-3">
-                    <label for="phone" class="form-label"><b>Phone:</b></label>
+                <div>
+                    <label for="phone" class="form-label"><h5>Phone:</h5></label>
                     <input type="text" class="form-control" id="phone">
                   </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 d-flex py-3">
-                <div><b>Contact me with:</b></div>
-                <div class="form-check px-5">
+                <div><h5>Contact me with:</h5></div>
+                <div class="form-check px-5 fs-6">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">
                       Email
                     </label>
                   </div>
-                  <div class="form-check px-5">
+                  <div class="form-check px-5 fs-6">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                     <label class="form-check-label" for="flexRadioDefault2">
                       Phone
                     </label>
                   </div>
-                  <div class="form-check px-5">
+                  <div class="form-check px-5 fs-6">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                     <label class="form-check-label" for="flexRadioDefault2">
                       Telegram
@@ -256,7 +256,7 @@
         </div>
         <div class="row">
             <div class="col-12 py-3">
-                <b>Topic:</b>
+                <h5>Topic:</h5>
                 <select class="form-select w-100" aria-label="Default select example">
                     <option selected>Post my story</option>
                     <option value="1">One</option>
@@ -267,7 +267,7 @@
         </div> 
         <div class="row">
             <div class="col-12 py-3">
-                <label for="exampleFormControlTextarea1" class="form-label"><b>Message:</b></label>
+                <label for="exampleFormControlTextarea1" class="form-label"><h5>Message:</h5></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
             </div>
         </div> 
@@ -281,7 +281,7 @@
                 </div>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center">
-                <div class="w-25 d-flex justify-content-end"><button type="button" class="btn border border-2 fs-4 py-1">Start</button></div>
+                <div class="w-25 d-flex justify-content-end"><button type="button" class="btn border border-2 fs-4 py-1 text-secondary">Start</button></div>
             </div>
         </div>
     </div>
